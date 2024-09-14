@@ -1,3 +1,4 @@
+import DataAtual from '../../Components/DataAtual/DataAtual';
 import Notificacao from '../../Components/Notificacao/Notificacao';
 import Pesquisar from '../../Components/Pesquisar/Pesquisar';
 import SideBar from '../../Components/SideBar/SideBar';
@@ -11,6 +12,10 @@ const Home = () => {
                 <section className='topo'>
                     <Pesquisar />
                     <Notificacao />
+                </section>
+                <section className='controle'>
+                    <DataAtual />
+                    <p>Nome do board</p>
                 </section>
             </main>
         </div>
