@@ -1,3 +1,4 @@
+import Login from '../Login/Login'
 import MenuLateral from '../MenuLateral/MenuLateral'
 import Titulo from '../Titulo/Titulo'
 import './_SideBar.scss'
@@ -28,6 +29,7 @@ const SideBar = () => {
                 <MenuLateral />
                 <MenuLateral />
             </div>
+            <Login/>
         </div>
     )
 }
