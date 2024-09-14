@@ -1,6 +1,5 @@
 .ContainerMenuLateral {
     padding: 4px 10px;
-    background: #FEFEFE;
     display: flex;
     gap: 10px;
     border-radius: 5px;
@@ -9,5 +8,10 @@
 
     p{
         font-size: 100%;
+    }
+
+    &:hover{
+        background: #FEFEFE;
+        cursor: pointer;
     }
 }

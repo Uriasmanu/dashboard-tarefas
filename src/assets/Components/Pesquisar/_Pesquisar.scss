@@ -1,0 +1,23 @@
+.ContainerPesquisar {
+    display: flex;
+    width: 70%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 5px;
+    box-sizing: border-box;
+
+    input {
+        flex-grow: 1; 
+        border: none;
+        background: none;
+        outline: none; 
+        font-size: 16px; 
+
+        &::placeholder {
+            margin-left: 2px;
+            color: #aaa; 
+            font-size: 14px; 
+        }
+    }
+}
