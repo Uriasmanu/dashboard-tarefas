@@ -7,6 +7,12 @@
 
     main{
         width: 100%;
-        padding: 1.5rem;
+        padding: 2rem 5rem;
+
+        .topo{
+            display: flex;
+            width: auto;
+            justify-content: space-between;
+        }
     }
 }

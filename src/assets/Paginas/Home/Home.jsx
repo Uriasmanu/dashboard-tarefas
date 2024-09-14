@@ -1,3 +1,4 @@
+import Notificacao from '../../Components/Notificacao/Notificacao';
 import Pesquisar from '../../Components/Pesquisar/Pesquisar';
 import SideBar from '../../Components/SideBar/SideBar';
 import './_Home.scss'
@@ -5,9 +6,12 @@ import './_Home.scss'
 const Home = () => {
     return (
         <div className="ContainerHome">
-            <SideBar/>
+            <SideBar />
             <main>
-                <Pesquisar/>
+                <section className='topo'>
+                    <Pesquisar />
+                    <Notificacao />
+                </section>
             </main>
         </div>
     )
